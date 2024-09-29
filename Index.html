@@ -15,21 +15,28 @@
   <body>
     <div class="application">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Johanneburg</h1>
-          <p>
-            Saturday 22:07, scattered clouds
-            <br />
-            Humidity: <strong>69%</strong>, Wind: <strong>5.14km/h </strong>
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1 class="city">Johanneburg</h1>
+            <p class="weather-details">
+              Saturday 22:07, scattered clouds
+              <br />
+              Humidity: <strong>69%</strong>, Wind: <strong>5.14km/h </strong>
+            </p>
+          </div>
+          <div>🌤️12°C</div>
         </div>
-        <div>🌤️12°C</div>
       </main>
       <footer>
         This project was coded by
