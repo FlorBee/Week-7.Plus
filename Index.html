@@ -4,38 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NB Weather App!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Johanneburg</h1>
-        <p>
-          Saturday 22:07, scattered clouds
-          <br />
-          Humidity: <strong>69%</strong>, Wind: <strong>5.14km/h </strong>
-        </p>
-      </div>
-      <div>🌤️12°C</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/FlorBee" target="_blank">Buhle Buthelezi</a>,
-      is open source on
-      <a href="https://github.com/FlorBee/Week-7.Plus" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://flor-weather-app.netlify.app" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+    <div class="application">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Johanneburg</h1>
+          <p>
+            Saturday 22:07, scattered clouds
+            <br />
+            Humidity: <strong>69%</strong>, Wind: <strong>5.14km/h </strong>
+          </p>
+        </div>
+        <div>🌤️12°C</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/FlorBee" target="_blank">Buhle Buthelezi</a
+        >, is open source on
+        <a href="https://github.com/FlorBee/Week-7.Plus" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://flor-weather-app.netlify.app" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/Index.js"></script>
   </body>
 </html>
